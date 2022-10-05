@@ -8,6 +8,12 @@ public class Car {
     String VIN;
     int numberOfDoors;
     String color;
+    static int minNumOfSeat=4;
+     final String  WORLD_CAR="GEN";
+     /*
+     The static keyword means the value is the same for every instance of the class.
+     The final keyword means once the variable is assigned a value it can never be changed
+      */
 
     void startEngine(){
         System.out.println("The Engine started...");
